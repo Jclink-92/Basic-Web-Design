@@ -1,0 +1,49 @@
+/* Global Styles */
+
+body {
+    background-color: #F2C12E;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+}
+
+#container {
+    background-color:#5D8C3B ;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+    nav {
+        background-color: #734B02;
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;    
+    }
+
+    nav li {
+       display: block; 
+    }
+
+    nav li a {
+        display: block;
+        height: 30px;
+        line-height; 40px;
+        background-color: #F2C12E;
+        color: black;
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    nav li a {
+        background-color: #5D8C3B;
+    }
+}
